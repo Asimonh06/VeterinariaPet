@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Productos</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #ffffff;
+            margin: 0%;
+            padding: 0%;
+
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 20px;
+            background-color: cadetblue;
+            color: #f4f4f4;
+            margin: 0%;
+            padding: 5%;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .product-list {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+        }
+
+        .product {
+            background-color: white;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            padding: 15px;
+            text-align: center;
+            transition: transform 0.3s;
+        }
+
+        .product:hover {
+            transform: scale(1.05);
+        }
+
+        .product img {
+            width: 100%;
+            height: auto;
+            max-height: 200px;
+            border-radius: 5px;
+        }
+
+        .product h2 {
+            font-size: 18px;
+            margin: 10px 0;
+        }
+
+        .product p {
+            font-size: 14px;
+            color: #555;
+        }
+
+        .price {
+            font-size: 16px;
+            font-weight: bold;
+            margin: 10px 0;
+        }
+
+        .add-to-cart {
+            background-color: #28a745;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .add-to-cart:hover {
+            background-color: #218838;
+        }
+
+        .tete {
+            font-size: 17px;
+            color: gray;
+            text-align: center;
+            font-family:Arial, Helvetica, sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Productos Veterinarios</h1>
+
+    <div class="container">
+        <h2> Nuestros Productos </h2>
+        <p class="tete">Porque estamos comprometidos en el cuidado de su mascota, le ofrecemos una más amplia variedad
+            de productos farmacéuticos veterinarios, de las mejores marcas y laboratorios nacionales e importados.
+            Productos registrados ante el SENASA y elaborados bajo los estándares de calidad que tu mascota merece.</p>
+        <div class="product-list">
+
+            <div class="product">
+                <img src="https://imagedelivery.net/4fYuQyy-r8_rpBpcY7lH_A/tottusPE/43143831_1/w=800,h=800,fit=pad"
+                    alt="Alimento para Perros">
+                <h2>Alimento para Perros Adultos</h2>
+                <p>Alimento balanceado para perros adultos de todas las razas.</p>
+                <p class="price">S/120</p>
+                <button class="add-to-cart">Agregar al Carrito</button>
+            </div>
+
+
+            <div class="product">
+                <img src="https://metroio.vtexassets.com/arquivos/ids/310291-800-auto?v=638179492009400000&width=800&height=auto&aspect=true"
+                    alt="Alimento para Gatos">
+                <h2>Alimento para Gatos Adultos</h2>
+                <p>Nutrición completa para gatos adultos, con proteínas de alta calidad.</p>
+                <p class="price">S/120</p>
+                <button class="add-to-cart">Agregar al Carrito</button>
+            </div>
+
+
+            <div class="product">
+                <img src="https://plazavea.vteximg.com.br/arquivos/ids/28431854-512-512/image-dfadea7cca564cddaf0a41b03d60891a.jpg"
+                    alt="Desparasitante">
+                <h2>Desparasitante Canino</h2>
+                <p>Desparasitante efectivo para perros de todas las edades.</p>
+                <p class="price">S/80</p>
+                <button class="add-to-cart">Agregar al Carrito</button>
+            </div>
+
+
+            <div class="product">
+                <img src="https://static.miscota.com/media/1/photos/products/133261/comedero-para-perros-acero-inoxidable-antideslizante-1-8-l_1_g.jpeg"
+                    alt="Comedor para Perros">
+                <h2>Comedor para Perros</h2>
+                <p>Comedor doble metalizado para Perros.</p>
+                <p class="price">S/30</p>
+                <button class="add-to-cart">Agregar al Carrito</button>
+            </div>
+
+            <div class="product">
+                <img src="https://imagedelivery.net/4fYuQyy-r8_rpBpcY7lH_A/falabellaPE/115527060_01/w=800,h=800,fit=pad"
+                    alt="Juguete para Mascotas">
+                <h2>Juguete Interactivo para perros</h2>
+                <p>Juguete que estimula la mente y el juego de tu perro.</p>
+                <p class="price">S/20</p>
+                <button class="add-to-cart">Agregar al Carrito</button>
+            </div>
+
+            <div class="product">
+                <img src="https://assets.elanco.com/8e0bf1c2-1ae4-001f-9257-f2be3c683fb1/2dfdb81e-a554-4941-bf8f-5a57271390a3/ES_PET_LIMPIADOR%20850x850%2096dpi.jpg"
+                    alt="Limpiador Dental para Perros">
+                <h2>limpiador para Perros</h2>
+                <p>limpiador de dientes para mantener a tu perro saludable.</p>
+                <p class="price">S/45</p>
+                <button class="add-to-cart">Agregar al Carrito</button>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

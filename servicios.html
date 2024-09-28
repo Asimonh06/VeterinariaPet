@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="" />
+
+    <style>
+        body {
+            margin: 0%;
+        }
+
+        main {
+            text-align: center;
+        }
+
+        h1 {
+
+            text-align: center;
+            margin: 0%;
+            padding: 5%;
+            text-align: center;
+            background-color: cadetblue;
+            color: azure;
+            font-size: 50px;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+        }
+
+
+        h2 {
+
+            font-size: 30px;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+        }
+
+        h3 {
+            font-size: 17px;
+            color: gray;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        h1 {
+            color: #333;
+            font-size: 2em;
+            margin-bottom: 20px;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+        }
+
+        .service {
+            background-color: white;
+            border-radius: 8px;
+            padding: 20px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            text-align: left;
+        }
+
+        .service-icon {
+            font-size: 40px;
+            color: #00a99d;
+            margin-bottom: 10px;
+        }
+
+        .service h2 {
+            color: #333;
+            font-size: 1.2em;
+            margin-bottom: 10px;
+        }
+
+        .service p {
+            color: #666;
+            font-size: 0.95em;
+            line-height: 1.6;
+        }
+
+        @media (max-width: 768px) {
+            .grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        footer .contenedor {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding-bottom: 25px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <header>
+        <h1>Servicios</h1>
+    </header>
+
+    <main>
+        <div>
+            <h2>¿QUE OFRECEMOS?</h2>
+            <h3>Nuestros servicios ofrecen una experiencia de mucha calidad para usted y su mascota.
+                Atendemos las 24 horas los 365 días del año, incluido feriados.
+            </h3>
+        </div>
+        <div class="container">
+
+            <div class="grid">
+                <div class="service">
+                    <div class="service-icon"></div>
+                    <img src="https://www.clinicaveterinariapanchocavero.com/assets/img/icons/acupuntura.png" width="75"
+                        alt="Acupuntura" title="Acupuntura" />
+                    <h2>Acupuntura</h2>
+                    <p>La Acupuntura Veterinaria actúa complementando en conjunto a diversas especialidades
+                        de la profesión, viendo al individuo como un todo.</p>
+                </div>
+                <div class="service">
+                    <div class="service-icon"></div>
+                    <img src="https://www.clinicaveterinariapanchocavero.com/assets/img/icons/anestesia.png"
+                        alt="Anestesia" width="75" title="Anestesia">
+                    <h2>Anestesia</h2>
+                    <p>Pensando en la seguridad del paciente, antes de inducirlo a la anestesia, debemos evaluarlo
+                        físicamente, así como a través de exámenes preoperatorios.</p>
+                </div>
+                <div class="service">
+                    <div class="service-icon"></div>
+                    <img src="https://www.clinicaveterinariapanchocavero.com/assets/img/icons/transfusion.png"
+                        alt="Cardiología" width="75" title="Cardiología">
+                    <h2>Cardiología</h2>
+                    <p>Los exámenes cardiológicos periódicos se han vuelto una práctica necesaria permitiendo la
+                        identificación y tratamiento de enfermedades cardíacas.</p>
+                </div>
+                <div class="service">
+                    <div class="service-icon"></div>
+                    <img src="https://www.clinicaveterinariapanchocavero.com/assets/img/icons/cirugia_esp.png"
+                        width="75" alt="Cirugía Especializada" title="Cirugía Especializada" />
+                    <h2>Cirugía Especializada</h2>
+                    <p>Capacitados en todo tipo de cirugías, desde plásticas hasta neurocirugías.</p>
+                </div>
+                <div class="service">
+                    <div class="service-icon"></div>
+                    <img src="https://www.clinicaveterinariapanchocavero.com/assets/img/icons/oftalmologia.png"
+                        alt="Oftalmología" width="75" title="Oftalmología">
+                    <h2>Oftalmología</h2>
+                    <p>Es vital identificar precozmente los signos de alteración de la visión o de molestias, para
+                        ofrecer mejores resultados.</p>
+                </div>
+                <div class="service">
+                    <div class="service-icon"></div>
+                    <img src="https://www.clinicaveterinariapanchocavero.com/assets/img/icons/endocrinologia.png"
+                        alt="Endocrinología" width="75" title="Endocrinología">
+                    <h2>Endocrinología</h2>
+                    <p>La endocrinología veterinaria es el área de la medicina veterinaria que se dedica al estudio de
+                        los desórdenes de las glándulas endocrinas.</p>
+                </div>
+                <div class="service">
+                    <div class="service-icon"></div>
+                    <img src="https://www.clinicaveterinariapanchocavero.com/assets/img/icons/celulas_madre.png"
+                        width="75" alt="Medicina Regenerativa" title="Medicina Regenerativa" />
+                    <h2>Medicina Regenerativa</h2>
+                    <p>Uso de técnicas avanzadas para el beneficio de las mascotas.</p>
+                </div>
+                <div class="service">
+                    <div class="service-icon"></div>
+                    <img src="https://www.clinicaveterinariapanchocavero.com/assets/img/icons/neurologia.png"
+                        alt="Neurología" width="75" title="Neurología">
+                    <h2>Neurología</h2>
+                    <p>La neurología es la especialidad que se dedica al diagnóstico y tratamiento de enfermedades que
+                        afectan el sistema nervioso.</p>
+                </div>
+                <div class="service">
+                    <div class="service-icon"></div>
+                    <img src="https://www.clinicaveterinariapanchocavero.com/assets/img/icons/nutricion.png" width="75"
+                        alt="Nutrición Clínica" title="Nutrición Clínica" />
+                    <h2>Nutrición Clínica</h2>
+                    <p>Una dieta equilibrada ayuda a la mascota enferma a incorporar los nutrientes que necesita para
+                        reponerse.</p>
+                </div>
+                <div class="service">
+                    <div class="service-icon"></div>
+                    <img src="https://www.clinicaveterinariapanchocavero.com/assets/img/icons/odontologia.png"
+                        alt="Odontología" width="75" title="Odontología">
+                    <h2>Odontología</h2>
+                    <p>En la Clínica MyPets, estamos capacitados para atender los problemas orales de
+                        tu mascota.</p>
+                </div>
+
+                <div class="service">
+                    <div class="service-icon"></div>
+                    <img src="https://www.clinicaveterinariapanchocavero.com/assets/img/icons/dermatologia.png"
+                        alt="Dermatología" width="75" title="Dermatología">
+                    <h2>Dermatología</h2>
+                    <p>La dermatología veterinaria es la especialidad que se dedica al estudio de las enfermedades de la
+                        piel, las uñas y el pelo</p>
+                </div>
+                <div class="service">
+                    <div class="service-icon"></div>
+                    <img src="https://www.clinicaveterinariapanchocavero.com/assets/img/icons/cirugia.png"
+                        alt="Cirugía General" width="75" title="Cirugía General">
+                    <h2>Cirugía General</h2>
+                    <p>Nuestros profesionales se encuentran capacitados para realizar todo tipo de cirugías generales,
+                        desde esterilizaciones, hasta extracción de tumores.</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="contenedor">
+            <p class="copy">My pets © 2024</p>
+            <div class="sociales">
+                <a class="icon-facebook" href="#"></a>
+                <a class="icon-twitter" href="#"></a>
+                <a class="icon-instagram" href="#"></a>
+                <a class="icon-github" href="#"></a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
